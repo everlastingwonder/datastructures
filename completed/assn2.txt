@@ -1,0 +1,7 @@
+Data Structures
+Assignment 2
+
+life
+
+implement the code in the book and show me some
+interesting runs for the game of life.

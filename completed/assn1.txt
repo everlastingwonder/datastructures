@@ -1,0 +1,8 @@
+Data Structures
+Assignment 1
+
+Write a C program that will read an array of integers from a
+file and then write the integers
+cla
+malloc
+bitwise stuff
