@@ -1,0 +1,11 @@
+Data Structures
+Assignment 4
+
+Create a data structure to represent a stack
+using pointers (as a linked list).
+
+write a C function that will initialize the
+stack to be empty.
+
+write all the other stacks functions, along with
+a menu to test it.
