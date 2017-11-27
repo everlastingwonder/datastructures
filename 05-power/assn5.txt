@@ -1,0 +1,11 @@
+Data Structures
+Bedford High School 
+Assignment 5
+Mr. McGowan
+
+  Write and test an exponentiation function that
+uses recursion.
+  Write and test an exponentiation function that
+does not use recursion.
+  Use the unix time command to see if you can
+identify the faster solution.
