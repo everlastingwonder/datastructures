@@ -1,6 +1,0 @@
-Add header comments to all .c files
-Move mystack.h into include/ directory
-Comment code?????
-Create Makefile
-Actually make stack.c do something (to demonstrate each of the functions)
-Check to make sure everything is consistent with common.h (especially boolean variables)
