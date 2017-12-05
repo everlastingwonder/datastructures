@@ -1,17 +1,20 @@
+all : stack
+
 stack : stack.o push.o pop.o top.o
 	gcc -o stack stack.o push.o pop.o top.o
 
-stack.o : stack.c mystack.h
+stack.o : stack.c ../include/mystack.h
 	gcc -c stack.c
 
-push.o : push.c mystack.h
+push.o : push.c ../include/mystack.h
 	gcc -c push.c
 
-pop.o : pop.c mystack.h
+pop.o : pop.c ../include/mystack.h
 	gcc -c pop.c
 
-top.o : top.c mystack.h
+top.o : top.c ../include/mystack.h
 	gcc -c top.c
 
-mystack.h : ../include/mystack.h
-.PHONY : mystack.h
+clean : stack.o push.o pop.o top.o
+	rm *.o
+.PHONY : clean
