@@ -10,11 +10,11 @@
 
 int top(Stack *s) {
   if(!empty(s)) {
-    int i = (stack->top - 1);
-    int val = stack->data[i];
+    int i = (s->top - 1);
+    int val = s->data[i];
     return val;
   } else {
     printf("ERROR: Cannot fetch top value because stack is empty!\n");
-    return HUGE_VAL;
+    return INT_MAX;
   }
 }

@@ -15,6 +15,6 @@ int pop(Stack *s) {
     return val;
   } else {
     printf("ERROR: Cannot pop from stack because stack is empty!\n");
-    return HUGE_VAL;
+    return INT_MAX;
   }
 }

@@ -10,5 +10,5 @@ count.o : count.c life.h
 map.o : map.c life.h title.txt
 	gcc -c map.c
 
-life.h : ../include/life.h
+life.h : ../include/life.h ../include/common.h
 .PHONY : life.h
