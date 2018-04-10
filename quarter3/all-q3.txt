@@ -1,0 +1,107 @@
+Data Structures
+Assignment 16
+Due 1-26-18
+
+  Implement a shell sort for a contiguous list of
+integers.  You do not need to make any structure
+node types, etc.  Just implement the algorithm on
+a 1-d array of ints.
+
+Data Structures
+Assignment 17
+Due 2-5-18
+
+  Implement a quick sort for a contiguous list of
+integers.  You do not need to make any structure
+node types, etc.  Just implement the algorithm on
+a 1-d array of ints.
+
+Data Structures 
+Assignment 18
+Due 2-16-18
+
+Write a program that will read a diagonalized matrix from
+a file and store it in a 1-d array with a corresponding
+1-d array access table.  You will need to read on the first
+line to discover the number of diagonals with data.  The 
+program should have a function
+that loads the arrays and then a function that writes the
+matrix out on standard output in matrix form (ie, it should
+look the same as it does in the file)  This program should
+work for any size matrix, so you need to figure the size
+of the matrix before you allocate the space for the arrays.
+If you like, you can write a function that does that...yea,
+that sounds like something that would impress Mr. McGowan.
+Test your program on the data in the files trimat.dat and
+quintmat.dat in the Data directory.
+
+Data Structures
+Assignment 19
+Due 3-8-18
+
+1) Create a hash function that assigns an integer value to 
+a string var.  There is no limit on the length of any
+one string.  
+
+2) Create a hash table *using chaining* for collision resolution. 
+
+3) Write the functions
+create_table()
+clear_table()
+insert()
+delete()
+retrive()
+
+4) Write a main function which will ask the user for the
+name of a file.  The file should contain a bunch of strings.
+   a) load the strings into the hash table
+   b) present a menu for the user with options to 
+       i) add a word to the data
+       ii) remove a word from the data
+       iii) check to see if a word is in the data
+       iv) erase all the data
+       v) quit the program
+   c) I had to put this here so I would have a part "c"
+   d) I know there is no "save" option in the menu, but
+      the point is to hash.
+
+5) Show me your program in action
+6) Submit paper copies of all the functions and any include files
+
+Data Structures
+Assignment 20
+Due 3-19-18
+
+  Implement the towers of Hanoi solution outlined
+at the beginning of chapter 8.  test it with a 
+stack of 4 rings to make sure it works.  (ie run
+the program and get the printout and try it on 
+paper)
+
+Data Structures
+Assignment 21
+Due 3-27-18
+
+A)  Use the code from section 9.2 (Insert(), GetNode(), TreeSort()) to
+    implement a "tree sort" algorithm.  The key field should be a char
+    array, so you can test this with names.  
+
+B)  Write and implement a TreeSearch() function that returns a pointer
+    to the node containing the specified key.  Have the main function
+    build the list, (call the functions in A) and then ask for a key
+    and do the search and print the results  (found or not found)
+
+Data Structures 
+Assignment 22
+Due 3-30-18
+
+  Write a function that will count the nodes in the tree you built
+  for the last assignment.
+
+Data Structures 
+Assignment 23
+Due 4-4-18  (This will be Quarter 4)
+
+  Do exercises E1 and E2 from section 10.3 on page 490.  Please
+submit the trees drawn neatly on plain paper (no lined or graph
+paper).

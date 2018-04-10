@@ -1,0 +1,18 @@
+Data Structures 
+Assignment 18
+Due 2-16-18
+
+Write a program that will read a diagonalized matrix from
+a file and store it in a 1-d array with a corresponding
+1-d array access table.  You will need to read on the first
+line to discover the number of diagonals with data.  The 
+program should have a function
+that loads the arrays and then a function that writes the
+matrix out on standard output in matrix form (ie, it should
+look the same as it does in the file)  This program should
+work for any size matrix, so you need to figure the size
+of the matrix before you allocate the space for the arrays.
+If you like, you can write a function that does that...yea,
+that sounds like something that would impress Mr. McGowan.
+Test your program on the data in the files trimat.dat and
+quintmat.dat in the Data directory.

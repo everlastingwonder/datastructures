@@ -1,0 +1,143 @@
+Data Structures
+Assignment 6
+
+write and test the implementation of a queue using a
+1-d array.  (make it a queue of ints) You will need 
+the following functions:
+
+enqueue()
+dequeue()
+empty()
+next()  (shows next item, but does not change stack)
+
+Make sure that you "reset" the array when it moves
+to the "end" of the space you allocated for it.
+
+
+
+Data Structures 
+Assignment 7
+
+write the implementation of a queue using a
+circular 1-d array.  (make it a list of ints)
+You will need the following functions:
+
+add()
+del()
+full() (called by add())
+empty()
+list()
+next()
+
+You probably should make the "list" be a struct with
+one field for the list and one field for the "pointer
+to the current item(an index into the array)
+
+
+Data Structures
+Assignment 8
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will count the number
+of nodes in the list
+
+
+Data Structures
+Assignment 9
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will delete a node
+from the list
+
+
+Data Structures 
+Assignment 10
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will add a node
+to the list.  Make the function take a pointer
+to an already existing node, do not have the
+add function build the node.
+
+
+Data Structures 
+Assignment 11
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will split the list in
+two.  The function will return 2 pointers (duh)
+and take as input a pointer to the list and a
+pointer to the node that will be the "split"
+point.  It is up to you which list gets the
+"middle" node.
+
+
+Data Structures
+Assignment #12
+
+Write a program that has a menu driven interface that will
+allow a user to "scroll" through a list of poems.  Do this
+by creating a doubly linked list where the data in each node
+is the filename of the file that contains the poem.  When 
+the program starts, it should take a directory name on 
+standard input.  Then it should use the system() function
+to do an ls of the directory and save the output to a file.
+The program should then read the file, putting one filename
+in each node.
+The choices offered to the user should be:
+
+   display current poem
+   display next poem
+   display previous poem
+   display first poem
+   quit
+  
+Do not show the "display previous poem" if the current
+poem is the first poem.  Similarly, do not show the
+"display next poem" if the current poem is the last
+poem.
+To "display" a poem, use the system() function to do
+a page command on the file.  You will need to build
+the string for the system() function using an sprintf().
+
+Each of you must type in a poem and copy it to my InComing
+directory so we can build a data base.  I have one there
+already.
+
+
+Data Structures
+Assignment #13
+
+write and implement both verstions of the binary search.
+In each version, put a counter that counts the number
+of comparisons done.  Even though we would never ever
+do this in real life, have the function print the number
+of comparisons just before it returns.  Test both functions
+several times with the same data and key to show that the
+"rememberful" version is actually slower.
+
+
+Data Structures 
+Assignment 14
+
+Read sections 6.4,6.5,6.7 (Binary Search, Comparison Trees, 
+Asymtotics)(Kruse 2nd ed).  Make sure you can do the exercises
+on 274 (Ordering of common functions) and 175.  Also answer 
+the questions on 276(chapter 6 review questions).
+
+WRITE THE PROGRAM described in programming project 5.6
+(P1) on page 175.  Email me the source code.
+
+
+Data Structures 
+Assignment 15
+
+do Programming Project 6.6 P1 on page 268

@@ -1,0 +1,31 @@
+Data Structures
+Assignment #12
+
+Write a program that has a menu driven interface that will
+allow a user to "scroll" through a list of poems.  Do this
+by creating a doubly linked list where the data in each node
+is the filename of the file that contains the poem.  When 
+the program starts, it should take a directory name on 
+standard input.  Then it should use the system() function
+to do an ls of the directory and save the output to a file.
+The program should then read the file, putting one filename
+in each node.
+The choices offered to the user should be:
+
+   display current poem
+   display next poem
+   display previous poem
+   display first poem
+   quit
+  
+Do not show the "display previous poem" if the current
+poem is the first poem.  Similarly, do not show the
+"display next poem" if the current poem is the last
+poem.
+To "display" a poem, use the system() function to do
+a page command on the file.  You will need to build
+the string for the system() function using an sprintf().
+
+Each of you must type in a poem and copy it to my InComing
+directory so we can build a data base.  I have one there
+already.

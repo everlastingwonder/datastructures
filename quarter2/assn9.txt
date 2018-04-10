@@ -1,0 +1,8 @@
+Data Structures
+Assignment 9
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will delete a node
+from the list

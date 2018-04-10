@@ -1,0 +1,10 @@
+Data Structures 
+Assignment 10
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will add a node
+to the list.  Make the function take a pointer
+to an already existing node, do not have the
+add function build the node.

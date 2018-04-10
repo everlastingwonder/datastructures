@@ -1,0 +1,8 @@
+Data Structures
+Assignment 16
+Due 1-26-18
+
+  Implement a shell sort for a contiguous list of
+integers.  You do not need to make any structure
+node types, etc.  Just implement the algorithm on
+a 1-d array of ints.

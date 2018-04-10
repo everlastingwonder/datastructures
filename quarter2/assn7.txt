@@ -1,0 +1,17 @@
+Data Structures 
+Assignment 7
+
+write the implementation of a queue using a
+circular 1-d array.  (make it a list of ints)
+You will need the following functions:
+
+add()
+del()
+full() (called by add())
+empty()
+list()
+next()
+
+You probably should make the "list" be a struct with
+one field for the list and one field for the "pointer
+to the current item (an index into the array)

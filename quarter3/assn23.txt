@@ -1,0 +1,7 @@
+Data Structures 
+Assignment 23
+Due 4-4-18  (This will be Quarter 4)
+
+  Do exercises E1 and E2 from section 10.3 on page 490.  Please
+submit the trees drawn neatly on plain paper (no lined or graph
+paper).
