@@ -1,0 +1,15 @@
+~~~~~ RECURSIVE ~~~~~
+real|user|sys
+7ms |4ms |1ms
+7ms |4ms |1ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+
+~~~~~ N0N-RECURSIVE ~~~~~
+real|uese|sys
+7ms |4ms |1ms
+7ms |4ms |1ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+8ms |5ms |2ms

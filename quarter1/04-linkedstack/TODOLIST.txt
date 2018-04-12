@@ -1,5 +1,4 @@
 Add heading comments to all .c files
-Move linkedstack.h into include/ directory
 Comment code?
 Create Makefile
 Actually make stack.c do something (to demonstrate each of the functions)

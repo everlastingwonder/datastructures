@@ -7,6 +7,6 @@ int pop(Node *head) {
     head->next = newTop;
     return oldTop->data;
   } else {
-    return HUGE_VAL;
+    return BAD_VAL;
   }
 }

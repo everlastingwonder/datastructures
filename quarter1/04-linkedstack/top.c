@@ -4,6 +4,6 @@ int top(Node *head) {
   if(!empty(head)) {
     return head->next->data;
   } else {
-    return HUGE_VAL;
+    return BAD_VAL;
   }
 }
