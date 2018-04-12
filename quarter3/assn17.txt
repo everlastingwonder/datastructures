@@ -1,0 +1,8 @@
+Data Structures
+Assignment 17
+Due 2-5-18
+
+  Implement a quick sort for a contiguous list of
+integers.  You do not need to make any structure
+node types, etc.  Just implement the algorithm on
+a 1-d array of ints.

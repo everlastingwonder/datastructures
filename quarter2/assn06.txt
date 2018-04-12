@@ -1,0 +1,14 @@
+Data Structures
+Assignment 6
+
+write and test the implementation of a queue using a
+1-d array.  (make it a queue of ints) You will need 
+the following functions:
+
+enqueue()
+dequeue()
+empty()
+next()  (shows next item, but does not change stack)
+
+Make sure that you "reset" the array when it moves
+to the "end" of the space you allocated for it.

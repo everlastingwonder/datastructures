@@ -1,0 +1,10 @@
+Data Structures 
+Assignment 14
+
+Read sections 6.4,6.5,6.7 (Binary Search, Comparison Trees, 
+Asymtotics)(Kruse 2nd ed).  Make sure you can do the exercises
+on 274 (Ordering of common functions) and 175.  Also answer 
+the questions on 276(chapter 6 review questions).
+
+WRITE THE PROGRAM described in programming project 5.6
+(P1) on page 175.  Email me the source code.

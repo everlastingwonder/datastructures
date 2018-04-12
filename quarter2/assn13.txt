@@ -1,0 +1,10 @@
+Data Structures
+Assignment #13
+
+write and implement both verstions of the binary search.
+In each version, put a counter that counts the number
+of comparisons done.  Even though we would never ever
+do this in real life, have the function print the number
+of comparisons just before it returns.  Test both functions
+several times with the same data and key to show that the
+"rememberful" version is actually slower.

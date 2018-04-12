@@ -1,0 +1,12 @@
+Data Structures
+Assignment 21
+Due 3-27-18
+
+A)  Use the code from section 9.2 (Insert(), GetNode(), TreeSort()) to
+    implement a "tree sort" algorithm.  The key field should be a char
+    array, so you can test this with names.  
+
+B)  Write and implement a TreeSearch() function that returns a pointer
+    to the node containing the specified key.  Have the main function
+    build the list, (call the functions in A) and then ask for a key
+    and do the search and print the results  (found or not found)

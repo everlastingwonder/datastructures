@@ -1,0 +1,12 @@
+Data Structures 
+Assignment 11
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will split the list in
+two.  The function will return 2 pointers (duh)
+and take as input a pointer to the list and a
+pointer to the node that will be the "split"
+point.  It is up to you which list gets the
+"middle" node.

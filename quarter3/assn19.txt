@@ -1,0 +1,32 @@
+Data Structures
+Assignment 19
+Due 3-8-18
+
+1) Create a hash function that assigns an integer value to 
+a string var.  There is no limit on the length of any
+one string.  
+
+2) Create a hash table *using chaining* for collision resolution. 
+
+3) Write the functions
+create_table()
+clear_table()
+insert()
+delete()
+retrive()
+
+4) Write a main function which will ask the user for the
+name of a file.  The file should contain a bunch of strings.
+   a) load the strings into the hash table
+   b) present a menu for the user with options to 
+       i) add a word to the data
+       ii) remove a word from the data
+       iii) check to see if a word is in the data
+       iv) erase all the data
+       v) quit the program
+   c) I had to put this here so I would have a part "c"
+   d) I know there is no "save" option in the menu, but
+      the point is to hash.
+
+5) Show me your program in action
+6) Submit paper copies of all the functions and any include files

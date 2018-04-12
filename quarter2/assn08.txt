@@ -1,0 +1,8 @@
+Data Structures
+Assignment 8
+
+Create a data structure to represent a singly
+linked list
+
+write a C function that will count the number
+of nodes in the list

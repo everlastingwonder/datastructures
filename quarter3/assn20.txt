@@ -1,0 +1,9 @@
+Data Structures
+Assignment 20
+Due 3-19-18
+
+  Implement the towers of Hanoi solution outlined
+at the beginning of chapter 8.  test it with a 
+stack of 4 rings to make sure it works.  (ie run
+the program and get the printout and try it on 
+paper)

@@ -1,0 +1,6 @@
+Data Structures 
+Assignment 22
+Due 3-30-18
+
+  Write a function that will count the nodes in the tree you built
+  for the last assignment.
