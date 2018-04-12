@@ -6,6 +6,7 @@
 #include <limits.h>
 
 #define NOP ;
+#define BAD_VAL -24817
 
 enum BOOLEAN {
   false = 0,
