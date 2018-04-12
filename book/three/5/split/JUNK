@@ -1,0 +1,2 @@
+main.obj addf.obj addr.obj delf.obj delr.obj error.obj +
+initiali.obj other.obj pushpop.obj splitstk.obj

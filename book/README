@@ -1,0 +1,301 @@
+The software disks to accompany  Data Structures and Program Design in C
+contain the programs from the text as well as the solutions to the exercises
+and programming projects.  All the programs were written to conform to the
+ANSI standard for C and were developed using the IBM C/2 compiler on an IBM
+PS/2. (IBM C/2 and PS/2 are trademarks of the International Business Machines
+Corporation.)
+
+The files on the disks are supplied in archived form and must be expanded
+before they can be used or transferred to another machine.  Each archive
+contains the programs from a single chapter and is further divided into
+subdirectories according to the various sections.
+
+The program  PKUNZIP  expands an archive into its original form. To expand an
+archive, say  SAMPLE.ZIP , and create the subdirectory structure, enter the
+command
+                          PKUNZIP -D SAMPLE  
+Copies of  PKUNZIP are on each disk.
+
+PKUNZIP is shareware that may be further distributed for noncommercial use if
+no fee is charged for its use, copying, or distribution, and it is not
+modified in any way.  (PKUNZIP is a trademark of PKWARE, Inc.)  The full
+archiving package may be obtained from PKWARE, Inc., Suite 205, 7545 North
+Port Washington Road, Glendale, Wisconsin 53217-3422, U.S.A.
+
+
+
+The following listing includes the path of the filename or directory as
+well as a reference to a specific section, exercise, or programming
+project as appropriate.
+
+
+Miscellaneous files (included on both disks):
+    READ.ME		This documentation file.
+    GENERAL.H 		General include file used throughout the programs.
+    ERROR.C 		Error function used throughout the programs.
+    PKUNZIP.EXE 	Program to extract archives.
+
+1.ZIP:  
+    1\LIFE 	 Complete Life program.				1.2
+    1\3\E1 	 Rewrite Exercise 1 in a less tricky way.	1.3 E1
+    1\3\E2 	 Rewrite Exercise 2.				1.3 E2a-d
+    1\3\E3 	 Check relative size of integers.		1.3 E3a-c
+    1\3\E4 	 Calculate the cube root of a number.		1.3 E4a-b
+    1\3\E5 	 Calculate mean and standard deviation.		1.3 E5
+    1\3\E6 	 Plot points on a graph.			1.3 E6
+
+2.ZIP:  
+    2\1\E1 	 Rewrite Life to make grid size variable.	2.1 E1
+    2\1\P1 	 Initialize function that takes symbolic input.	2.1 P1
+    2\LIFE2 	 Second version of Life.			2.3
+    2\6\ISMAGIC  Checks a magic square.				2.6 P1a
+    2\6\GENMAGIC Generates a magic square.			2.6 P1b
+    2\6\1DLIFE 	 One-dimensional Life.				2.6 P2
+    2\6\CALENDAR Prints calendar for current year.		2.6 P3a
+    2\6\CALYEAR  Prints calendar for any year.			2.6 P3b
+    2\6\DAY 	 Finds day of the week for a date.		2.6 P3c
+    2\6\DAYDIFF  Finds number of days between two dates.	2.6 P3d
+    2\6\FRIDAY13 Calculates number of Friday the 13ths.		2.6 P3f
+
+3.ZIP:
+    3\2\STACK 	 Array implementation of stacks.		3.2
+    3\2\E2A 	 Return top of the stack.			3.2 E2a
+    3\2\E2B 	 Return third element from top of stack.	3.2 E2b
+    3\2\E2C 	 Return bottom of the stack.			3.2 E2c
+    3\2\E2D 	 Delete all occurrences of  x  from the stack.	3.2 E2d
+    3\2\DBLSTACK Use two stacks in the same array.		3.2 E3
+    3\2\E4 	 Read an integer and print its divisors.	3.2 E4
+    3\3\QCOUNTER Circular queue with a counter.			3.3
+    3\3\QINDEX 	 Circular queue with a special index.		3.3
+    3\3\STK2STK	 Empty one stack onto another stack.		3.3 E3a
+    3\3\Q2STK 	 Move all items from a queue onto a stack.	3.3 E3b
+    3\3\REVERSE	 Reverse the items in a queue.			3.3 E3c
+    3\3\LINEAR 	 Queue in a linear array.			3.3 E4
+    3\3\FIXED 	 Queue with a fixed first position.		3.3 E5
+    3\3\TWOINDEX Queue in an array with two indices.		3.3 E6
+    3\3\CIRCLE 	 Queue in a circular array.			3.3 E7
+    3\3\NOCOUNT	 Queue without a counter to indicate full.	3.3 E8
+    3\3\ONEUNUSE Queue with one unused entry.			3.3 E9
+    3\3\P1 	 Write a queue to keep track of input.		3.3 P1
+    3\4\AIRPORT	 The airport simulation program.		3.4
+    3\4\TWORUN 	 Modify the simulation to use two runways.	3.4 P3
+    3\4\THREERUN Modify the simulation to use three runways.	3.4 P4
+    3\4\FUEL 	 Modify the simulation to use fuel level.	3.4 P5
+    3\4\RNSTUB 	 Write a stub to test  RandomNumber.		3.4 P6
+    3\4\RNDRIVER Driver program for  RandomNumber.		3.4 P7
+    3\4\SCISSORS Implement the scissors/paper/rock game.	3.4 P8
+    3\4\DRUNK1 	 Drunk's random walk.				3.4 P9a
+    3\4\DRUNK2 	 Walk - move closer to the pub.			3.4 P9b
+    3\4\DRUNK3 	 Walk - back to the pub.			3.4 P9c
+    3\4\DRUNK4 	 Walk - remember previous walks.		3.4 P9d
+    3\5\COUNTER	 Lists with a counter.				3.5
+    3\5\INDEX	 Lists with a special index.			3.5
+    3\5\TRAVERSE Traverse the list and visit each node.		3.5
+    3\5\LISTSTRU Functions for a list with a structure.		3.5 E1a
+    3\5\LISTNULL Functions for a list with  NULL entries.	3.5 E1b
+    3\5\LISTFUNC Functions to manipulate a list.		3.5 E2
+    3\5\DEQUE	 Add and delete an item to a deque.		3.5 E4
+    3\5\SCROLL 	 Implement a scroll.				3.5 E7
+    3\5\SPLIT 	 Functions to split a deque.			3.5 E8
+    3\5\VIVIFY 	 Rewrite the  Vivify  function.			3.5 E9
+
+4.ZIP:
+    4\1\SWAP	 Interchange pointers.				4.1 E2
+    4\1\SWAPVAL  Interchange values in dynamic variables.	4.1 E3
+    4\1\REASSIGN Reassign pointer to dynamic variable.		4.1 E4
+    4\1\CREATE 	 Create a new variable.				4.1 E5
+    4\2\STACK 	 Linked stacks.					4.2
+    4\2\QUEUE 	 Linked queues.					4.2
+    4\2\ADDDEL 	 Functions  AddQueue and  DeleteQueue.		4.2 E4
+    4\2\CIRCLEQ  A queue as a circular linked list.		4.2 E5
+    4\2\DEQUE 	 A deque as a circular linked list.		4.2 E6
+    4\3\SIMPLY 	 Simply linked lists.				4.3
+    4\3\CONTIG 	 Contiguous lists.				4.3
+    4\3\COUNT 	 Count the number of nodes in a linked list.	4.3 E1
+    4\3\CONCATEN Concatenate two linked lists.			4.3 E3
+    4\3\SPLIT 	 Split a list in two.				4.3 E4
+    4\3\INSERT 	 Insert a node in a linked list.		4.3 E5
+    4\3\DELETE 	 Delete a node from a linked list.		4.3 E6
+    4\3\TRAVERSE Traverse a linked list.			4.3 E7
+    4\3\REVERSE  Reverse a linked list.				4.3 E8
+    4\3\SPLIT 	 Split a linked list in two.			4.3 E9
+    4\3\CIRCLE 	 Functions for a circular linked list.		4.3 E10-13
+    4\3\DOUBLY 	 Functions for a doubly linked list.		4.3 E14
+    4\4\POLYNOMI Polynomial arithmetic functions.		4.4
+    4\4\POLYCALC Calculator with error recovery.		4.4 P6
+    4\4\CALC2 	 Polynomial calculator.				4.4 P7-12
+    4\5\LLARRAY  Linked lists in arrays.			4.5
+    4\5\LLFUNC 	 Functions to manipulate lists.			4.5 E4-7
+
+5.ZIP:
+    5\2\SEARCH 	 Sequential search - contiguous version.	5.2
+    5\2\SEARCHL  Sequential search - linked list.		5.2
+    5\2\SENTINEL Sequential search using a sentinel.		5.2 E4
+    5\2\TESTSEQ  Test contiguous version.			5.2 P1
+    5\2\TESTLINK Test linked list version.			5.2 P2
+    5\2\TESTSENT Test sentinel version.				5.2 P3
+    5\3\BINARY1  Binary search - forgetful version.		5.3
+    5\3\BINARY2  Binary search - recognizing equality.		5.3
+    5\3\MEDIAN 	 Finds the median.				5.3 E3
+    5\3\POINT1 	 Binary1 - using pointers.			5.3 P3
+    5\3\POINT2 	 Binary2 - using pointers.			5.3 P4
+    5\3\POWERS 	 Binary search - using addition.		5.3 P5
+    5\4\TERNARY  Ternary search.				5.4 E5
+    5\4\HYBRID 	 Hybrid search.					5.4 P3
+    5\5\INTERP 	 Interpolation search.				5.5 P1
+    5\6\ORDER 	 Test the size of order functions.		5.6 P1
+
+6.ZIP:
+    6\3\TRANSPOS Transpose a tri-diagonal matrix.		6.3 E2
+    6\3\ACCESS 	 Generate an access table for triangular table.	6.3 E4b
+    6\3\REFLECT  Reflect a triangular table.			6.3 E4c
+    6\3\READLOW  Read a lower triangular table.			6.3 P1
+    6\3\PRINTLOW Print a lower triangular table.		6.3 P2
+    6\3\TRIANGLE Check the triangle rule.			6.3 P3
+    6\5\HASH 	 Various hash functions.			6.5
+    6\5\OPEN 	 Insert and retrieve for open addressing.	6.5 E1-2
+    6\5\MAP3 	 Hash function for mapping 3-letter words.	6.5 E3
+    6\5\PERFECT  Find perfect hash functions.			6.5 E4
+    6\5\DELETE 	 Delete functions for various hashing methods.	6.5 E6-8
+    6\5\CWRODS 	 Hash functions for C reserved words.		6.5 P1a-b
+    6\LIFE3 	 Life game using hash tables.			6.8
+    6\LIFE3\VIVIFY2 	Eliminate dangling-pointers bug.	6.8 P5
+    6\LIFE3\LIFEAUX 	Hash routines for  Life3.		6.8 P6
+
+End of first disk
+
+7.ZIP:
+    7\2\INSERT1  Insertion sort: contiguous version.		7.2
+    7\2\INSERT2  Insertion sort: linked version.		7.2
+    7\2\P1A 	 Use contiguous lists to test insertion sort.	7.2 P1a
+    7\2\P1B 	 Use random numbers.				7.2 P1b
+    7\2\P1C 	 Use contiguous lists of structures.		7.2 P1c
+    7\2\P1E 	 Use linked lists.				7.2 P1e
+    7\2\BINARY 	 Binary search with insertion sort.		7.2 P2
+    7\2\SCANSORT Scan sort.					7.2 P3
+    7\2\BUBBLE 	 Bubble sort.					7.2 P4
+    7\3\SELECT 	 Selection sort.				7.3
+    7\3\LINKED 	 A linked version of selection sort.		7.3 P2
+    7\SHELL 	 Shell sort.					7.4
+    7\5\OPTIMAL  Find an optimal sorting method for four keys.	7.5 E2a
+    7\5\COMPARE  Find the number of comparisons for four keys.	7.5 E2b
+    7\5\INTERP 	 Interpolation sort.				7.5 P1
+    7\5\DISTRIB  Linked distribution sort.			7.5 P2
+    7\7\MERGE 	 Mergesort for linked lists.			7.7
+    7\7\MERGE2 	 A variation of the mergesort program.		7.7 P2
+    7\7\NATURAL1 Natural mergesort - first version.		7.7 P3a
+    7\7\NATURAL2 Natural mergesort - second version.		7.7 P3b
+    7\7\MERGE3 	 Mergesort for contiguous lists.		7.7 P4
+    7\7\RADIX 	 The `punched card' sorting method.		7.7 P5
+    7\8\QUICK 	 Quicksort for contiguous lists.		7.8
+    7\8\MTHSMALL Find the mth smallest key in a list.		7.8 E2a
+    7\8\MTHSMAL2 Use quicksort to find the mth smallest key.	7.8 E2b
+    7\8\PART 	 A variation of the partition function.		7.8 E3
+    7\8\PIVOT 	 Use a different method for choosing the pivot.	7.8 E4
+    7\8\TOWIND 	 Optimize partitioning using two indices.	7.8 E7a
+    7\8\SENTINEL Optimize partitioning using a sentinel.	7.8 E7e
+    7\8\LINKED 	 A version of quicksort for linked lists.	7.8 P2
+
+8.ZIP:
+    8\HANOI 	 Towers of Hanoi.				8.1
+    8\2\PERMUTE  Generate permutations.				8.2
+    8\2\PERMUTE2 Variation of permutation generation.		8.2 E3
+    8\2\QUEENS 	 Complete Eight queens problem.			8.2 P1
+    8\2\MOLEFORM Calculate molecular weight.			8.2 P2
+    8\2\MAZE 	 Find a path through a maze.			8.2 P3
+    8\2\KNIGHT 	 Knight's tour.					8.2 P4
+    8\3\LOOKAHEA LookAhead function.				8.3
+    8\3\E4A 	 Auxiliary functions for contiguous list.	8.3 E4a
+    8\3\E4B 	 Auxiliary functions for linked list.		8.3 E4b
+    8\3\EIGHT 	 Auxiliary functions for game of Eight.		8.3 P1
+    8\3\TICTAC 	 Tic-tac-toe game.				8.3 P2
+    8\3\ALPHABET LookAhead with alpha-beta pruning.		8.3 P6
+    8\5\HANOI 	 Towers of Hanoi without tail recursion.	8.5
+    8\5\FACT 	 Recursive version of  Factorial.		8.5
+    8\5\FACTIT 	 Iterative version of  Factorial.		8.5
+    8\5\FIB 	 Recursive Fibonacci numbers.			8.5
+    8\5\FIBIT 	 Iterative Fibonacci numbers.			8.5
+    8\5\GCD 	 Recursive GCD.					8.5 E3
+    8\5\GCDI 	 Iterative GCD.					8.5 E3
+    8\5\BINCO 	 Recursive binomial coefficients.		8.5 E4a
+    8\5\PASCAL 	 Generate Pascal's triangle.			8.5 E4c
+    8\5\BINCOIT  Iterative binomial coefficients.		8.5 E4d
+    8\5\ACK 	 Recursive Ackermann's function.		8.5 E5a
+    8\5\ACKIT 	 Iterative Ackermann's function.		8.5 E5c
+
+9.ZIP:
+    9\2\SEARCH1  Treesearch: recursive implementation.		9.2
+    9\2\SEARCH2  Treesearch: nonrecursive implementation.	9.2
+    9\TRAVERSE 	 Traversal of binary trees.			9.3
+    9\4\DELETE 	 Deletion from a search tree.			9.4
+    9\4\CNTNODES Count all the nodes in a linked binary tree.	9.4 E2
+    9\4\DBLTRAV  Double-order traversal of a binary tree.	9.4 E7
+    9\4\ORDER 	 Determine the order nodes will be visited.	9.4 E8
+    9\4\COPYTREE Make a copy of a linked binary tree.		9.4 E9
+    9\4\PRNTREE  Print the keys from a binary tree.		9.4 E10
+    9\4\REVERSE  Interchange left and right subtrees.		9.4 E11
+    9\4\DELNODE  Delete a node from a linked binary tree.	9.4 E13
+    9\4\LEVEL 	 Traverse a binary tree level by level.		9.4 E14
+    9\4\WIDTH 	 Calculate the width of a linked binary tree.	9.4 E15
+    9\4\TREE2LL  Convert a binary tree into doubly linked list.	9.4 E16
+    9\4\SENTINEL Search a binary tree with sentinels.		9.4 P1
+    9\5\BUILD 	 Building a binary search tree.			9.5
+    9\5\GETNODE  Get each node of a binary tree in turn.	9.5 E2
+    9\5\INORDER  Get each node of a binary tree in inorder.	9.5 E3
+    9\6\AVLTREES AVL trees.					9.6
+    9\6\TESTAVL  Manage AVL trees.				9.6 P1
+    9\7\HEAPS 	 Contiguous representation of trees: heaps.	9.7
+    9\7\INSERT 	 Insert a new item into a heap.			9.7 E3
+    9\7\DELLARGE Delete the item with the largest key.		9.7 E4
+    9\7\DELINDEX Delete an item with a specified index.		9.7 E5
+
+10.ZIP:
+    10\2\TRIES 	  Lexicographic search trees: Tries.		10.2
+    10\2\PRNTRIE  Print trie in alphabetical order.		10.2 E2
+    10\2\PRNTRIE2 Print in length and alphabetical order.	10.2 E3
+    10\2\DELTRIE  Delete a word from a trie.			10.2 E4
+    10\2\TESTTRIE Test trie functions.				10.2 P1
+    10\3\BTREE 	  B-tree functions.				10.3
+    10\3\SEARCH   Search function without tail recursion.	10.3 E5
+    10\3\BINSRCH  SearchNode function using binary search.	10.3 E6
+    10\3\TESTBTRE Test B-tree functions.			10.3 P1
+    10\4\DEPTH 	  Depth-first traversal of a graph.		10.4
+    10\4\BREADTH  Breadth-first traversal of a graph.		10.4
+    10\4\TOPSORT  Depth-first topological sort.			10.4
+    10\4\TOPSORT2 Breadth-first topological sort.		10.4
+    10\4\DIST 	  Shortest path algorithm.			10.4
+    10\4\READGRPH Read in various graphs.			10.4 P1
+    10\4\WRITGRPH Display various graphs.			10.4 P2
+    10\4\TESTTOP  Test topological sorting.			10.4 P4
+    10\4\TESTDIST Test shortest path algorithm.			10.4 P5
+
+11.ZIP:
+    11\3\PREFIX   Evaluate an expression in prefix form.	11.3
+    11\3\POSTFIX  Evaluate an expression in postfix form.	11.3
+    11\3\POSTFIX2 Evaluate in postfix form: recursive version.	11.3
+    11\4\INTOPOL  Translation from infix to polish form.	11.4
+    11\4\TRANSLAT Translate for parenthesized input.		11.4 E1
+    11\5\GRAPH 	  Complete  GraphFunction program.		11.5
+    11\5\ERRORCHK Modified for better error checking.		11.5 P2
+
+B.ZIP:
+    B\HANOI	  Nonrecursive Towers of Hanoi.			B.1
+    B\2\MOVE 	  Folded nonrecursive Towers of Hanoi.		B.2
+    B\2\PREORDER  Preorder traversal of binary tree.		B.2 E1
+    B\2\INORDER   Inorder traversal of binary tree.		B.2 E2
+    B\2\POSTORD   Postorder traversal of binary tree.		B.2 E3
+    B\2\QUEEN 	  Nonrecursive eight queens problem.		B.2 P1
+    B\QSORT 	  Nonrecursive quicksort.			B.3
+    B\MSORT 	  Nonrecursive mergesort.			B.4
+    B\MSORT\HANOI Nonrecursive Towers of Hanoi.			B.4 E1
+    B\5\THREAD 	  Threaded binary trees.			B.5
+    B\5\LEFTINS   Insert a new node on the left.		B.5 E1a
+    B\5\INORDER   Inorder traversal.				B.5 E1b
+    B\5\PREORDER  Preorder traversal.				B.5 E1c
+    B\5\RIGHTINS  Insert a new node on the right.		B.5 E3
+    B\5\DELETE 	  Delete a node from a threaded tree.		B.5 E4
+    B\5\MKTHREAD  Insert threads into an unthreaded tree.	B.5 E5
+    B\5\NOSTACK   Modified to use unused link space and threads.B.5 E6
+    B\5\INSERT 	  Insert a new node between two others.		B.5 E7
+
+

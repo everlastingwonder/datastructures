@@ -1,0 +1,10 @@
+ extern  enum boolean Empty(struct stack_tag *stack_ptr); 
+ extern  enum boolean Full(struct stack_tag *stack_ptr); 
+ extern  void Error(char *s); 
+ extern  void Initialize(struct stack_tag *stack_ptr); 
+ extern  void main(void ); 
+ extern  struct node_tag *MakeNode(char item); 
+ extern  void Pop(char *item,struct stack_tag *stack_ptr); 
+ extern  void PopNode(struct node_tag * *node_ptr,struct stack_tag *stack_ptr); 
+ extern  void Push(char item,struct stack_tag *stack_ptr); 
+ extern  void PushNode(struct node_tag *node_ptr,struct stack_tag *stack_ptr); 

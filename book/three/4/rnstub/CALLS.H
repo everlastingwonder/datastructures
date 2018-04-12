@@ -1,0 +1,1 @@
+int RandomNumber(double expectedvalue);

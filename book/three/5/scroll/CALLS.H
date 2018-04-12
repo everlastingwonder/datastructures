@@ -1,0 +1,10 @@
+extern  void AddScroll(struct queue_tag *scroll_ptr,char item);
+extern  void DeleteFront(struct queue_tag *scroll_ptr,char *item);
+extern  void DeleteRear(struct queue_tag *scroll_ptr,char *item);
+extern  void Initialize(struct queue_tag *scroll_ptr);
+extern  void main(void );
+extern  int Size(struct queue_tag *scroll_ptr);
+extern  enum boolean Empty(struct queue_tag *scroll_ptr);
+extern  enum boolean Full(struct queue_tag *scroll_ptr);
+extern  void Error(char *s);
+extern  void PrScroll(struct queue_tag *scroll_ptr,int flag);

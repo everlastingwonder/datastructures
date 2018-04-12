@@ -1,0 +1,10 @@
+int Hash(int, int);
+void Initialize(void);
+void Vivify(Node_type *);
+void Kill(Node_type *);
+Cell_type *GetCell(int, int);
+void WriteMap(void);
+void AddNeighbors(void);
+void SubtractNeighbors(void);
+Node_type *Insert(Node_type *, Cell_type *);
+Boolean_type Enquire(void);

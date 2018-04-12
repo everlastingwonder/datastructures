@@ -1,0 +1,16 @@
+extern  void CheckBounds(struct position_tag *p,int choice,int *inbounds,int maxrow,int maxcol);
+extern  void Choose(struct position_tag *p,int *choice,int maxrow,int maxcol,enum boolean_tag (*streets)[25]);
+extern  int Select(int low,int high);
+extern  enum boolean_tag NewDirection(struct position_tag *p,int choice,int maxrow,int maxcol,enum boolean_tag (*streets)[25]);
+extern  enum boolean_tag Enquire(void );
+extern  void GetInfo(int *maxrow,int *maxcol,int *runs);
+extern  int GetNumber(int low,int high);
+extern  void Initialize(enum boolean_tag (*streets)[25],int maxrow,int maxcol);
+extern  void main(void );
+extern  void Move(struct position_tag p,int *moves,enum boolean_tag (*streets)[25]);
+extern  enum boolean_tag Home(struct position_tag p,int maxrow);
+extern  int RandomNumber(double expectedvalue);
+extern  void Randomize(void );
+extern  void Results(int runs,int *count,int maxrow,int maxcol);
+extern  void Start(int *moves,struct position_tag *place,int maxcol,enum boolean_tag (*streets)[25]);
+extern  void Title(void );

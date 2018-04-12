@@ -1,0 +1,11 @@
+extern  void AddFront(struct deque_tag *deque_ptr,char item);
+extern  void AddRear(struct deque_tag *deque_ptr,char item);
+extern  void DeleteFront(struct deque_tag *deque_ptr,char *item);
+extern  void DeleteRear(struct deque_tag *deque_ptr,char *item);
+extern  void Initialize(struct deque_tag *deque_ptr);
+extern  void main(void );
+extern  int Size(struct deque_tag *deque_ptr);
+extern  enum boolean Empty(struct deque_tag *deque_ptr);
+extern  enum boolean Full(struct deque_tag *deque_ptr);
+extern  void Error(char *s);
+extern  void PrDeque(struct deque_tag *deque_ptr,int flag);

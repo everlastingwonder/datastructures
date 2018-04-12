@@ -1,0 +1,10 @@
+extern  void AddNode(struct node_tag *node_ptr,struct queue_tag *queue_ptr);
+extern  void AddQueue(char item,struct queue_tag *queue_ptr);
+extern  void DeleteNode(struct node_tag * *node_ptr,struct queue_tag *queue_ptr);
+extern  void DeleteQueue(char *item,struct queue_tag *queue_ptr);
+extern  enum boolean Empty(struct queue_tag *queue_ptr);
+extern  enum boolean Full(struct queue_tag *queue_ptr);
+extern  void Error(char *s);
+extern  void Initialize(struct queue_tag *queue_ptr);
+extern  void main(void );
+extern  struct node_tag *MakeNode(char item);

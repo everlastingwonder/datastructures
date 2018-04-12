@@ -1,0 +1,17 @@
+extern  void Delete(struct list_tag *list_ptr,int *w);
+extern  enum boolean Empty(struct list_tag *list_ptr);
+extern  void Error(char *s);
+extern  void Finish(struct list_tag *list_ptr,int *w);
+extern  enum boolean Full(struct list_tag *list_ptr);
+extern  void Initialize(struct list_tag *list_ptr);
+extern  void InsertAfter(struct list_tag *list_ptr,int *w,char item);
+extern  void InsertBefore(struct list_tag *list_ptr,int *w,char item);
+extern  enum boolean IsFirst(struct list_tag *list_ptr,int w);
+extern  enum boolean IsLast(struct list_tag *list_ptr,int w);
+extern  void main(void );
+extern  void Next(struct list_tag *list_ptr,int *w);
+extern  void Preceding(struct list_tag *list_ptr,int *w);
+extern  void Replace(struct list_tag *list_ptr,int w,char item);
+extern  void Retrieve(struct list_tag *list_ptr,int w,char *item);
+extern  int Size(struct list_tag *list_ptr);
+extern  void Start(struct list_tag *list_ptr,int *w);

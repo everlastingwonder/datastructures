@@ -1,0 +1,10 @@
+ void Delete(List_type *, int *); 
+ void Error(char *s); 
+ void Next(List_type *, int *); 
+ void Retrieve(List_type *, int *, Item_type *); 
+ int  Size(List_type *); 
+ void Start(List_type *, int *); 
+ void Traverse(List_type *, void (*)(Item_type)); 
+ void Visit(Item_type); 
+ Boolean_type Empty(List_type *); 
+ Boolean_type IsLast(List_type *, int *); 
