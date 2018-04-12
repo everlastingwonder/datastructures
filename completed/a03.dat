@@ -1,0 +1,109 @@
+6
+12
+8
+9
+5
+/****
+* Gus Wiedey
+* Assignment 03
+* Data Structures
+* 11/27/2017
+* stack.c
+****/
+
+#include <mystack.h>
+
+int main() {
+  int i;
+  Stack *s = (Stack*)malloc(sizeof(Stack));
+  s->top = 0;
+
+  push(s, 5);
+  push(s, 9);
+  push(s, 8);
+  push(s, 12);
+  push(s, 6);
+
+  while(!empty(s)) {
+    i = pop(s);
+    printf("%d\n", i);
+  }
+}
+/****
+* Gus Wiedey
+* Assignment 03
+* Data Structures
+* 11/27/2017
+* push.c
+****/
+
+#include <mystack.h>
+
+void push(Stack *s, int val) {
+  if(!full(s)) {
+    s->data[s->top] = val;
+    s->top++;
+  } else {
+    printf("ERROR: Cannot push to stack because stack is full!\n");
+  }
+}
+/****
+* Gus Wiedey
+* Assignment 03
+* Data Structures
+* 11/27/2017
+* pop.c
+****/
+
+#include <mystack.h>
+
+int pop(Stack *s) {
+  if(!empty(s)) {
+    s->top--;
+    int val = s->data[s->top];
+    return val;
+  } else {
+    printf("ERROR: Cannot pop from stack because stack is empty!\n");
+    return INT_MAX;
+  }
+}
+/****
+* Gus Wiedey
+* Assignment 03
+* Data Structures
+* 11/27/2017
+* top.c
+****/
+
+#include <mystack.h>
+
+int top(Stack *s) {
+  if(!empty(s)) {
+    int i = (s->top - 1);
+    int val = s->data[i];
+    return val;
+  } else {
+    printf("ERROR: Cannot fetch top value because stack is empty!\n");
+    return INT_MAX;
+  }
+}
+#ifndef _MY_STACK_H_
+#define _MY_STACK_H_
+
+#include <common.h>
+
+#define STACK_MAX 50
+#define empty(s) ( s->top == 0 ? true : false )
+#define full(s) ( s->top == STACK_MAX ? true : false )
+
+struct STACK {
+  int top;
+  int data[STACK_MAX];
+};
+typedef struct STACK Stack;
+
+void push(Stack*, int);
+int pop(Stack*);
+int top(Stack*);
+
+#endif /* _MY_STACK_H_ */

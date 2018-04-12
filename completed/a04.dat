@@ -1,0 +1,96 @@
+6
+12
+8
+9
+5
+
+
+
+#ifndef _LINKED_STACK_H_
+#define _LINKED_STACK_H_
+
+#include <common.h>
+
+#define empty(h) ( h->next == NULL ? true : false )
+
+struct STACKNODE {
+  int data;
+  struct STACKNODE *next;
+};
+typedef struct STACKNODE Node;
+
+void init(Node*);
+void push(Node*, int);
+int pop(Node*);
+int top(Node*);
+
+#endif /* _LINKED_STACK_H_ */
+
+
+
+#include <linkedstack.h>
+
+int main() {
+  int i;
+  Node *head = (Node*)malloc(sizeof(Node));
+  init(head);
+
+  push(head, 5);
+  push(head, 9);
+  push(head, 8);
+  push(head, 12);
+  push(head, 6);
+
+  while(!empty(head)) {
+    i = pop(head);
+    printf("%d\n", i);
+  }
+}
+
+
+
+#include <linkedstack.h>
+
+void init(Node *head) {
+  head->next = NULL;
+  head->data = BAD_VAL;
+}
+
+
+
+#include <linkedstack.h>
+
+void push(Node* head, int newData) {
+  Node *oldTop = head->next;
+  Node *newTop = (Node*)malloc(sizeof(Node));
+  newTop->next = oldTop;
+  newTop->data = newData;
+  head->next = newTop;
+}
+
+
+
+#include <linkedstack.h>
+
+int pop(Node *head) {
+  if(!empty(head)) {
+    Node *oldTop = head->next;
+    Node *newTop = oldTop->next;
+    head->next = newTop;
+    return oldTop->data;
+  } else {
+    return BAD_VAL;
+  }
+}
+
+
+
+#include <linkedstack.h>
+
+int top(Node *head) {
+  if(!empty(head)) {
+    return head->next->data;
+  } else {
+    return BAD_VAL;
+  }
+}

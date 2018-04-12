@@ -1,0 +1,62 @@
+Recursive:
+13^8 = 815730721
+
+Non-Recursive:
+13^8 = 815730721
+
+~~~~~ RECURSIVE ~~~~~
+real|user|sys
+7ms |4ms |1ms
+7ms |4ms |1ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+
+~~~~~ N0N-RECURSIVE ~~~~~
+real|uese|sys
+7ms |4ms |1ms
+7ms |4ms |1ms
+7ms |4ms |2ms
+7ms |4ms |2ms
+8ms |5ms |2ms
+
+
+
+#include <stdio.h>
+#include <common.h>
+
+long power(long, int);
+
+int main() {
+  long ans = power(13, 8);
+  printf("13^8 = %li\n", ans);
+}
+
+
+
+#include <stdio.h>
+#include <common.h>
+
+long power(long base, int exp) {
+  if(exp == 1) {
+    return base;
+  } else {
+    return (power(base, exp - 1) * base);
+  }
+}
+
+
+
+#include <stdio.h>
+#include <common.h>
+
+long power(long base, int exp) {
+  int i;
+  long ans = 1;
+
+  for(i = 0; i < exp; i++) {
+    ans = (ans * base);
+  }
+
+  return ans;
+}
